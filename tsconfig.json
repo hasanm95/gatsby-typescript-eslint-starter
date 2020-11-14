@@ -1,0 +1,47 @@
+{
+    "compilerOptions": {
+        /* Basic Options */
+        "target": "esnext",
+        "module": "commonjs",
+        "lib": ["dom", "esnext"],
+        "jsx": "preserve",
+        "isolatedModules": true,
+
+        /* Strict Type-Checking Options */
+        "strict": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+
+        /* Additional Checks */
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+
+        /* Module Resolution Options */
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "types": ["node"],
+        "baseUrl": "src",
+        "paths": {
+            "@theme": ["gatsby-plugin-theme-ui"],
+            "@theme/*": ["gatsby-plugin-theme-ui/*"],
+            "@components/*": ["components/*"],
+            "@shared/*": ["components/shared/*"],
+            "@containers/*": ["containers/*"],
+            "@layout": ["layouts"],
+            "@assets/*": ["assets/*"],
+            "@utils/*": ["utils/*"],
+            "@hooks/*": ["hooks/*"]
+        }
+    },
+    "exclude": ["node_modules", "public", ".cache"]
+}
