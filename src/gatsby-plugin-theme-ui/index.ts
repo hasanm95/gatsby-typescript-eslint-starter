@@ -1,6 +1,4 @@
-import { Theme } from "@theme/styled";
-
-const theme: Theme = {
+const theme = {
     colors: {
         primary: "#5E60E7",
         text: "#6C6B6B",
@@ -79,10 +77,6 @@ const theme: Theme = {
         },
     },
     heading: {
-        mainTitle: {
-            color: "shaft",
-            fontSize: ["22px", "", "27px"],
-        },
         h2: {
             fontSize: ["23px", "26px", "28px"],
         },

@@ -23,7 +23,7 @@
         "node": true,
         "es6": true
     },
-    "plugins": ["@typescript-eslint", "react", "react-hooks", "prettier"],
+    "plugins": ["@typescript-eslint", "react", "react-hooks", "prettier", "@emotion"],
     "parserOptions": { 
         "ecmaFeatures": {
             "jsx": true

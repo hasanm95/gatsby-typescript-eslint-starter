@@ -24,7 +24,7 @@
         "noFallthroughCasesInSwitch": true,
         "sourceMap": true,
         "allowSyntheticDefaultImports": true,
-        "allowJs": true,
+        "allowJs": false,
 
         /* Module Resolution Options */
         "moduleResolution": "node",

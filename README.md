@@ -5,12 +5,17 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Gatsby Typescript Esling Starter
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+> A starter kit for TypeScript-based Gatsby projects with sensible defaults.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+## 💪 Features
+ - Typescript
+ - Eslint (with airbnb esling rules)
+ - Styling with emotion
+ - Eslint for emotion
+
 
 ## 🚀 Quick start
 
