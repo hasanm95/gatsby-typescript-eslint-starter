@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-export default {
+module.exports = {
 	title: "HasThemes",
 	titleTemplate: "Bootstrap Templates &amp; Premium Website HTML Templates",
 	description: "240+ Best Bootstrap Templates are available on this website. Find your template for your project compatible with the most popular HTML library in the world.",
